@@ -109,6 +109,8 @@ nav h1 a {
   height: 50px;
   background-color: #3397DB;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 .filter-options h2 {
   color: white;
@@ -121,12 +123,13 @@ nav h1 a {
   background-color: white;
   border: 1px solid #fff;
   font-family: Arial,sans-serif;
-  font-size: 11pt;
+  font-size: 10%;
   height: 35px;
   letter-spacing: 0;
   margin: 10px;
   padding: 0 10px;
-  width: 200px;
+  flex: 1;
+  width: 100%;
 }
 
 /* ====================== Restaurant Listing ====================== */
