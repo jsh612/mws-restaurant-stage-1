@@ -7,9 +7,11 @@ self.addEventListener('install', function(event) {
             [
                 '/',
                 '/index.html',
+                '/restaurant.html',
                 '/css/styles.css',
                 '/js/dbhelper.js',
                 '/data/restaurants.json',
+                '/js/restaurant_info.js',
                 '/img/1.jpg',
                 '/img/2.jpg',
                 '/img/3.jpg',
