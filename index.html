@@ -21,7 +21,7 @@
       <div id="map" aria-label="location" role="application"></div>
     </section>
     <section>
-      <div class="filter-options">
+      <div tabindex="0" class="filter-options">
         <h2>Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
@@ -30,7 +30,7 @@
           <option value="all">All Cuisines</option>
         </select>
       </div>
-      <ul id="restaurants-list"></ul>
+      <ul tabindex="0" id="restaurants-list"></ul>
     </section>
   </main>
   <footer id="footer">
